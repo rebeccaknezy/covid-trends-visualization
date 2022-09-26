@@ -1,0 +1,41 @@
+<!doctype html>
+<hmtl>
+    <head>
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/d3/4.2.8/d3.min.js" type="text/JavaScript"></script>
+        <script src="https://d3js.org/d3-scale-chromatic.v1.min.js"></script>
+        <script src="https://d3js.org/d3-geo-projection.v2.min.js"></script>
+        <link rel="stylesheet" href="styles.css">
+          
+    </head>
+    <body>
+        <h1>Weekly Covid Trends in North and South America</h1>
+        <hr>
+        <div class="select">Select a Location:</div>
+        <div id="controls">
+        </div>
+        <div id="label">
+            <svg id="title" style="width:600px;height:150px;" ></svg>
+        </div>
+        <hr>
+        <div class="select">Select what data is shown on the map:</div>
+        <div>
+            <button id="fill_differences">Show if Cases Increased or Reduced</button>
+            <button id="fill_top_bottom">Show Top 5 and Bottom 5 Cases per million</button>
+        </div>
+        <div id="legend">
+            <svg id="leg" style="width:700px;height:150px;" ></svg>
+        </div>
+        <hr>
+        <div id="details">
+            <h3>Hover over a country to see more details</h3>
+        </div>
+        <div id="viz">
+            <svg id="map" style="width:600px;height:800px;" ></svg>
+            <svg id="graph" style="width:400px;height:700px; " ></svg>
+        </div>
+
+        <script src="index.js"></script>
+
+    </body>
+
+</hmtl>

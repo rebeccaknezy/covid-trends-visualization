@@ -1,0 +1,31 @@
+path.countries {
+    stroke-width: 1;
+    stroke: #75739F;
+  }
+  circle.centroid {
+      fill: #75739F;
+      pointer-events: none;
+  }
+  rect.bbox {
+      fill: none;
+      stroke-dasharray: 5 5;
+      stroke: #75739F;
+      stroke-width: 2;
+      pointer-events: none;
+  }
+  button{
+  transition-duration: 0.4s;
+  border-radius: 1em;
+  padding: 5px 10px;
+  font-size: 16px;
+  }
+
+  button:hover {
+  background-color: #0077b6; 
+  color: white;
+  }
+
+  .select {
+    font-size: 1.1rem;
+    margin: 10px;
+  }
